@@ -1,4 +1,4 @@
-# 🧬 In Silico Design and Characterization of Monoclonal Antibodies for Therapeutic Applications
+# In Silico Design and Characterization of Monoclonal Antibodies for Therapeutic Applications
 
 <div align="center">
 
@@ -11,7 +11,6 @@
 
 **A complete, end-to-end computational pipeline for antibody structure modeling, molecular docking, and structural stability characterization — targeting HER2-positive breast cancer.**
 
-*Developed for Genext Genomics Pvt. Ltd. | Portfolio Project CP004/MP01*
 
 </div>
 
@@ -35,7 +34,7 @@
 
 ## 🔬 Project Overview
 
-This project implements a **fully validated in silico pipeline** for the design and computational characterization of **Trastuzumab (Herceptin)** — a clinically approved monoclonal antibody — against its therapeutic target, **HER2 (Human Epidermal Growth Factor Receptor 2)**.
+This project implements a **fully validated in silico pipeline** for the design and computational characterization of **Trastuzumab (Herceptin)**, a clinically approved monoclonal antibody against its therapeutic target, **HER2 (Human Epidermal Growth Factor Receptor 2)**.
 
 HER2 overexpression occurs in ~20% of breast cancer cases and is associated with aggressive tumor progression. Trastuzumab binds the extracellular **Domain IV** of HER2 with high specificity, blocking receptor signaling and mediating immune-mediated tumor clearance.
 
@@ -65,10 +64,10 @@ This pipeline covers the complete computational characterization workflow:
 │                    COMPLETE IN SILICO PIPELINE                  │
 ├─────────────┬───────────────────────────────────────────────────┤
 │  STEP 1     │  Target Selection + Data Retrieval                │
-│             │  PDB: 1N8Z → VH/VL FASTA extraction              │
+│             │  PDB: 1N8Z → VH/VL FASTA extraction               │
 ├─────────────┼───────────────────────────────────────────────────┤
 │  STEP 2     │  Homology Modeling (SWISS-MODEL)                  │
-│             │  Template: 6dez.1 | Identity: 89.63% | GMQE: 0.86│
+│             │  Template: 6dez.1 | Identity: 89.63% | GMQE: 0.86 │
 ├─────────────┼───────────────────────────────────────────────────┤
 │  STEP 3     │  Structure Validation                             │
 │             │  MolProbity | ERRAT | VERIFY_3D | QMEAN           │
@@ -77,13 +76,13 @@ This pipeline covers the complete computational characterization workflow:
 │             │  Score: -90.1 kcal/mol | BSA: 1992 Å²             │
 ├─────────────┼───────────────────────────────────────────────────┤
 │  STEP 5     │  PyMOL Visualization                              │
-│             │  4 publication-quality structural figures          │
+│             │  4 publication-quality structural figures         │
 ├─────────────┼───────────────────────────────────────────────────┤
 │  STEP 6     │  Normal Mode Analysis (iMODS)                     │
-│             │  Eigenvalue | Deformability | B-factor | Variance  │
+│             │  Eigenvalue | Deformability | B-factor | Variance │
 ├─────────────┼───────────────────────────────────────────────────┤
 │  STEP 7     │  RMSD / RMSF Analysis (BioPython + Matplotlib)    │
-│             │  Per-residue flexibility | Stability profile       │
+│             │  Per-residue flexibility | Stability profile      │
 └─────────────┴───────────────────────────────────────────────────┘
 ```
 
@@ -277,10 +276,10 @@ pip install biopython matplotlib numpy
 
 | Name | Role |
 |------|------|
-| **Vidit Jain** | Computational pipeline design, execution, analysis, and reporting |
-| **Shashidhar K** | Project guidance and scientific supervision |
+| **Vidit Jain** | Computational pipeline design, execution, analysis and reporting |
+| **Shashidhar K** | Project guidance, scientific supervision and reporting |
 
-*Developed under the Mini-Project Program (CP004/MP01) at **Genext Genomics Pvt. Ltd.***
+*Developed under the Mini-Project Program (CP004/MP01) at **Bversity School of Bioscience.***
 
 ---
 
@@ -306,7 +305,5 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 <div align="center">
 
 **⭐ If this project helped you, consider starring the repository.**
-
-*Genext Genomics Pvt. Ltd. | Computational Biology & Bioinformatics*
 
 </div>
