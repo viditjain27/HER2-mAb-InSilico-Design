@@ -1,0 +1,40 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows
+*.lnk
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.env
+venv/
+
+# Large temporary files
+*.tmp
+*.log
+*.bak
+
+# GROMACS output (not needed in repo)
+*.trr
+*.cpt
+*.tpr
+*.edr
+*.xtc
+*.mdp.bak
+\#*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# WSL artifacts
+*.zone.identifier
