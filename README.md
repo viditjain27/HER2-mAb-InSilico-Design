@@ -304,6 +304,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <div align="center">
 
-
+**⭐ If this project helped you, consider starring the repository.**
 
 </div>
